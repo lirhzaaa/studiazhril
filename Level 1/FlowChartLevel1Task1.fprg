@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-02-20 03.09.40 PM"/>
+        <attribute name="created" value="QVNVUztMSVJIWkE7MjAyMy0wMi0yMDswMi41Ny41NSBQTTsyMDI5"/>
+        <attribute name="edited" value="QVNVUztMSVJIWkE7MjAyMy0wMi0yMDswMy4wOS40MCBQTTsxOzIxMjk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Nilai1, Nilai2" type="Integer" array="False" size=""/>
+            <input variable="Nilai1"/>
+            <input variable="Nilai2"/>
+            <if expression="nilai1&gt;nilai2">
+                <then>
+                    <if expression="nilai1&gt;nilai2">
+                        <then>
+                            <output expression="Nilai1&amp;&quot;AngkaTerbesar&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="Nilai2&amp;&quot;AngkaTerbesar&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="nilai2&gt;nilai1">
+                        <then>
+                            <output expression="Nilai1&amp;&quot;AngkaTerbesar&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="Nilai1&amp;&quot;AngkaTerbesar&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

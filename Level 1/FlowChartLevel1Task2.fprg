@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-02-20 03.23.34 PM"/>
+        <attribute name="created" value="QVNVUztMSVJIWkE7MjAyMy0wMi0yMDswMy4wOS40MiBQTTsyMDIz"/>
+        <attribute name="edited" value="QVNVUztMSVJIWkE7MjAyMy0wMi0yMDswMy4yMy4zNCBQTTsxOzIxMjg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Nilai1, Nilai2, Nilai3" type="Integer" array="False" size=""/>
+            <input variable="Nilai1"/>
+            <input variable="Nilai2"/>
+            <input variable="Nilai3"/>
+            <if expression="Nilai1&gt;Nilai2">
+                <then>
+                    <if expression="Nilai1&gt;Nilai2">
+                        <then>
+                            <if expression="Nilai1&gt;Nilai3">
+                                <then>
+                                    <output expression="Nilai1&amp;&quot;AngkaTerbesar&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="Nilai3&amp;&quot;AngkaTerbesar&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <output expression="Nilai2&amp;&quot;AngkaTerbesar&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="Nilai2&gt;Nilai1">
+                        <then>
+                            <if expression="Nilai2&gt;Nilai3">
+                                <then>
+                                    <output expression="Nilai2&amp;&quot;AngkaTerbesar&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="Nilai3&amp;&quot;AngkaTerbesar&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <output expression="Nilai1&amp;&quot;AngkaTerbesar&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
